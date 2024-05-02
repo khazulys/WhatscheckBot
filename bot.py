@@ -34,6 +34,6 @@ def receive_number(message):
     bot.reply_to(message, 'Please send me a number not alphabet!')
     
 if __name__=='__main__':
-  #keep_alive()
+  keep_alive()
   print('starting bot...')
   bot.infinity_polling()
